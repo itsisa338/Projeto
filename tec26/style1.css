@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw; 
+    height: 100vh;
+    background-image: url('./Fundo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.config {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+    top: 14px;
+    right: 10px;
+
+}
+.dec {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+    transform: rotate(45deg);
+}
+.dec2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+    transform: rotate(90deg);
+}
+.vol {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+}
+.escola{
+    position: absolute;
+    top: 87px;
+    left: 180px;
+    font-size: medium;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #44397A;
+    font-family: 'Serif', DM Serif Display;
+    z-index: 2;
+}
+.prato_dec{
+    width: 450px;
+    height: 450px;
+    right: 10px;
+    bottom: 5px;
+    position: absolute;
+}
+
+.input {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    color-scheme: white;
+}
+.login {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translateY(-50%);
+    font-size: 60px;
+    color: #44397A;
+    font-family: 'Serif', DM Serif Display;
+}
